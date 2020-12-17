@@ -1,0 +1,264 @@
+#logo{
+    position: relative;
+    height: 20%;
+    width: 25%;
+}
+header{
+    background-image: url(../img/img2.jpg);
+    background-size: 100%;
+    padding-top: 20%;
+}
+body{
+    background-image: url(../img/fr.jpg);
+    background-size: 100%;
+}
+ul{
+    padding-left: 30px;
+}
+.log{
+    margin-left: 50%;
+    color: white;
+    font-size: 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+}
+.redes-container{
+    display: flex;
+    width: 100vh;
+    /*align-items: center;
+    justify-content: center;*/
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2;
+    border-radius: 10px;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+.redes-container ul li .whatsapp:hover{
+    background: rgba(55, 206, 42, 0.856);
+}
+#main{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+nav{
+    width: 20%;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-image: url(../img/madera.jpg);
+}
+h2{
+    color: white;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+a{
+    color: white;
+}
+div{
+    display: inline;
+}
+h1{
+    color: white;
+    margin-left: 2%;
+    font-size: 40px;
+    text-shadow: 2px -2px 2px #000 ;
+    padding-top: 130px;
+}
+video{
+    margin-left: 10%;
+    padding: 10px;
+}
+aside{
+    width: 20%;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-image: url(../img/madera.jpg);
+}
+section{
+    width: 60%;
+    text-align: center;
+}
+p{
+    color: white;
+}
+.inf{
+    font-size: 20px;
+    text-shadow: 2px -2px 1px #000 ;
+    padding-left: 10px;
+}
+a{
+    font-size: 25px;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+.infor{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.caja{
+    position: relative;
+    top: 56%;
+    height: 25px;
+    transform: translate(-50%, -50%);
+}
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    border:3px solid #5c2a09ef;
+    background: #fff url(../img/buscador.png) no-repeat 9px center;  
+    width: 650px;
+    transition: all .5s;
+}
+input.src:hover{
+    width: 700px;
+    background-color: #fff;
+    border-color: #ecac20;
+    box-shadow: 0 0 5px #6dcff680;
+}
+#hora{
+    text-align: center;
+    font-size: 25px;
+}
+.linea{
+    border-top: 5px solid orangered;
+}
+.contenedor-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(236, 168, 8, 0.781);
+    width: 100%;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+}
+.overlay h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%); 
+}
+.imagen:hover .overlay{
+    height: 20%;
+    cursor: pointer;
+}
+.menu{
+    width: 95%;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 30px;
+}
+.item{
+    width: 22%;
+
+}
+.men{
+    max-width: 80%;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.item .men{
+    cursor: pointer;
+}
+.lightbox{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lightbox .men{
+    width: 400px;
+    height: 500px;
+}
+.btn-cerrar{
+    width: 70px;
+    height: 70px;
+    background: rgba(228, 10, 10, 0.493);
+    border: 3px solid white;
+    border-radius: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+

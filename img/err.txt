@@ -1,0 +1,7 @@
+11:27:22 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:27:22 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:27:22 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:27:22 p. m.  [mysql] 	Press the Logs button to view error logs and check
+11:27:22 p. m.  [mysql] 	the Windows Event Viewer for more clues
+11:27:22 p. m.  [mysql] 	If you need more help, copy and post this
+11:27:22 p. m.  [mysql] 	entire log window on the forums
